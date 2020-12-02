@@ -1,4 +1,5 @@
-<%= form_with(model: Inquiry.new, local: true) do |form| %>
+<p><%= notice %></p>
+<%= form_with(model: @inquiry, local: true) do |form| %>
   <%= form.label :name %><br>
   <%= form.text_field :name %><br>
   
